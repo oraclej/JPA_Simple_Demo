@@ -61,6 +61,12 @@
             <artifactId>jakarta.servlet.jsp.jstl-api</artifactId>
             <version>3.0.0</version>
         </dependency>
+        <dependency>
+            <groupId>com.oracle.database.nls</groupId>
+            <artifactId>orai18n</artifactId>
+            <version>23.2.0.0</version>
+        </dependency>
+
     </dependencies>
 
     <build>

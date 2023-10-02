@@ -4,6 +4,7 @@ import jakarta.persistence.*;
 
 @Entity(name = "person")
 @Table(name = "TBL_PERSON")
+@EntityListeners(PersonInterceptor.class)
 public class Person {
     @Id
     @Column(name = "ID_PERSON", columnDefinition = "NUMBER")

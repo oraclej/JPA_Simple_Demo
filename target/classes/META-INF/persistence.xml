@@ -7,9 +7,9 @@
         <provider>org.hibernate.jpa.HibernatePersistenceProvider</provider>
         <properties>
             <property name="hibernate.connection.driver_class" value="oracle.jdbc.driver.OracleDriver"/>
-            <property name="hibernate.connection.url" value="jdbc:oracle:thin:@localhost:1521:XE"/>
-            <property name="hibernate.connection.username" value="c##arash"/>
-            <property name="hibernate.connection.password" value="123"/>
+            <property name="hibernate.connection.url" value="jdbc:oracle:thin:@10.85.65.133:1521:PAYMENT"/>
+            <property name="hibernate.connection.username" value="arash"/>
+            <property name="hibernate.connection.password" value="arash"/>
             <property name="hibernate.dialect" value="org.hibernate.dialect.Oracle12cDialect"/>
             <property name="hibernate.show_sql" value="true"/>
 <!--            <property name="hibernate.hbm2ddl.auto" value="create"/>-->
